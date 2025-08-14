@@ -121,18 +121,12 @@ IVO-VR/
 - ✅ Configuración de iluminación
 
 ### 🔄 En Desarrollo:
-- 🔄 Sistema de interacción con objetos (GrabbableInputManager)
-- 🔄 Mecánicas de agarre y manipulación
 - 🔄 Optimización de rendimiento para VR
 
 ### 📋 Próximos Pasos:
-- [ ] Implementar sistema completo de interacciones
-- [ ] Añadir físicas realistas a los objetos
-- [ ] Crear sistema de inventario
+
 - [ ] Implementar audio espacial
-- [ ] Optimizar para diferentes dispositivos Quest
-- [ ] Añadir sistema de menús VR
-- [ ] Implementar guardado de progreso
+
 
 ## 📸 **Capturas de Pantalla**
 
@@ -147,7 +141,7 @@ IVO-VR/
 ## 🎮 **Cómo Ejecutar**
 
 1. Abrir el proyecto en Unity 2022.3.42f1 o superior
-2. Asegurar que Meta XR SDK esté correctamente configurado
+2. Asegurar que el asset All-in-One SDK v77 esté correctamente configurado
 3. Conectar dispositivo Meta Quest via Oculus Link o Air Link
 4. Hacer build para Android con configuración XR habilitada
 5. Instalar en el dispositivo Quest
