@@ -8,9 +8,9 @@ IVO-VR es un proyecto de realidad virtual desarrollado en Unity que simula un am
 
 ### 🎮 **Tecnología Base**
 - **Motor de Juego**: Unity 2022.3.42f1 LTS
-- **SDK de VR**: Meta XR SDK v77.0.0 (Meta Quest SDK)
-- **Plataforma Objetivo**: Meta Quest (Oculus Rift, Quest 1, Quest 2, Quest 3)
-- **XR Framework**: Unity XR Oculus v4.2.0
+- **SDK de VR**: Meta XR All-in-One SDK v77
+- **Plataforma Objetivo**: Meta Quest (Quest 1, Quest 2, Quest 3, Quest Pro)
+- **XR Framework**: Meta XR SDK integrado
 
 ### 🏭 **Entorno Virtual**
 - **Escena Principal**: "Galpon VR" - Un galpón industrial virtual
@@ -41,7 +41,6 @@ IVO-VR es un proyecto de realidad virtual desarrollado en Unity que simula un am
 
 - **Vehículos**:
   - Peugeot 504
-  - Modelos de automóviles
 
 #### Materiales:
 - Sistema de materiales con colores base:
@@ -100,20 +99,19 @@ IVO-VR/
 ## 🔧 **Configuración y Desarrollo**
 
 ### Dependencias Principales:
-- `com.meta.xr.sdk.all`: Meta XR SDK completo
-- `com.unity.xr.oculus`: Plugin XR de Oculus para Unity
+- `com.meta.xr.sdk.all`: Meta XR All-in-One SDK v77
 - `com.unity.test-framework`: Framework de testing
 
 ### Build Settings:
 - Target Platform: Android (Meta Quest)
-- XR Settings: Oculus configurado
+- XR Settings: Meta XR All-in-One SDK configurado
 - Graphics API: Vulkan/OpenGL ES
 
 ## 🚀 **Estado Actual del Desarrollo**
 
 ### ✅ Completado:
 - ✅ Configuración base del proyecto VR
-- ✅ Integración con Meta XR SDK
+- ✅ Integración con Meta XR All-in-One SDK v77
 - ✅ Escena principal del galpón
 - ✅ Importación y organización de assets 3D
 - ✅ Sistema básico de materiales
@@ -152,4 +150,4 @@ Proyecto en desarrollo para fines educativos y de demostración.
 
 ---
 
-**Desarrollado con Unity y Meta XR SDK**
+**Desarrollado con Unity y Meta XR All-in-One SDK v77**
